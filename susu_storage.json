@@ -1,0 +1,12 @@
+{
+    "current_week": 2,
+    "payout_history": [
+        {
+            "week": 1,
+            "recipient": "emma",
+            "recipient_id": "9165952884",
+            "amount": "300.00",
+            "date": "2026-10-17T08:03:59+00:00"
+        }
+    ]
+}

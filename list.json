@@ -1,0 +1,98 @@
+{
+    "paul": {
+        "id": "4989233308",
+        "name": "paul",
+        "amount": "0.00",
+        "weekly_contributions": {
+            "1": "50.00",
+            "2": "0.00"
+        },
+        "payouts_received": "0.00"
+    },
+    "joe": {
+        "id": "9864184876",
+        "name": "joe",
+        "amount": "0.00",
+        "weekly_contributions": {
+            "1": "50.00",
+            "2": "0.00"
+        },
+        "payouts_received": "0.00"
+    },
+    "divine": {
+        "id": "0657939605",
+        "name": "divine",
+        "amount": "0.00",
+        "payouts_received": "300.00",
+        "weekly_contributions": {
+            "1": "50.00",
+            "2": "0.00"
+        }
+    },
+    "keke": {
+        "id": "3254879068",
+        "name": "keke",
+        "amount": "0.00",
+        "payouts_received": "450.00",
+        "weekly_contributions": {
+            "1": "50.00",
+            "2": "0.00"
+        }
+    },
+    "mom": {
+        "id": "3279256537",
+        "name": "mom",
+        "amount": "0.00",
+        "payouts_received": "450.00",
+        "weekly_contributions": {
+            "1": "50.00",
+            "2": "0.00"
+        }
+    },
+    "emma": {
+        "id": "9165952884",
+        "name": "emma",
+        "amount": "0.00",
+        "weekly_contributions": {
+            "1": "50.00",
+            "2": "0.00"
+        },
+        "payouts_received": "300.00"
+    },
+    "ivone": {
+        "id": "9699409158",
+        "name": "ivone",
+        "amount": "43.00",
+        "weekly_contributions": {
+            "2": "43.00"
+        },
+        "payouts_received": "0.00"
+    },
+    "mike": {
+        "id": "5016529885",
+        "name": "mike",
+        "amount": "23.00",
+        "weekly_contributions": {
+            "2": "23.00"
+        },
+        "payouts_received": "0.00"
+    },
+    "a n a n e": {
+        "id": "7810474299",
+        "name": "A n a n e",
+        "amount": "50.00",
+        "weekly_contributions": {
+            "2": "50.00"
+        },
+        "payouts_received": "0.00"
+    },
+    "a l i c e": {
+        "id": "0103054076",
+        "name": "A l i c e",
+        "amount": "10.00",
+        "weekly_contributions": {
+            "2": "10.00"
+        },
+        "payouts_received": "0.00"
+    }
+}
