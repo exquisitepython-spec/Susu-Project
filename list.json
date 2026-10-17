@@ -85,5 +85,14 @@
             "2": "43.00"
         },
         "payouts_received": "0.00"
+    },
+    "pastor": {
+        "id": "9744928505",
+        "name": "pastor",
+        "amount": "34",
+        "weekly_contributions": {
+            "2": "34"
+        },
+        "payouts_received": "0.00"
     }
 }
