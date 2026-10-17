@@ -10,8 +10,6 @@ from member_id import generate_member_id
 
 
 
-
-
 def main():
     while True:
         print(

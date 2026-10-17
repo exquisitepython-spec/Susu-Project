@@ -1,24 +1,21 @@
 import os
 import json
-from decimal import Decimal, InvalidOperation
-import implement
-
-
+from implement import filename,Decimal,InvalidOperation
 def load_members(current_week):
-    if not os.path.exists(implement.filename):
+    if not os.path.exists(filename):
         return {}
     try:
-        with open(implement.filename, "r", encoding="utf-8") as file:
+        with open(filename, "r", encoding="utf-8") as file:
             members = json.load(file)
     except json.JSONDecodeError as error:
         raise ValueError(
-            f"{implement.filename} contains invalid JSON. "
+            f"{filename} contains invalid JSON. "
             "Correct the file before continuing."
         ) from error
 
     except OSError as error:
         raise ValueError(
-            f"Couldn't read {implement.filename}: {error}"
+            f"Couldn't read {filename}: {error}"
         ) from error
     
     if not isinstance(members, dict):
@@ -72,3 +69,4 @@ def load_members(current_week):
                 f"Invalid payout record for {key}."
             ) from error
     return members
+

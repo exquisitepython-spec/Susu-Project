@@ -1,27 +1,25 @@
 import os
 import json
-import implement
-
-
+from implement import metadata_file
 def load_metadata():
-    if not os.path.exists(implement.metadata_file):
+    if not os.path.exists(metadata_file):
         return {
             "current_week": 1,
             "payout_history": []
         }
     try:
-        with open(implement.metadata_file, "r", encoding="utf-8") as file:
+        with open(metadata_file, "r", encoding="utf-8") as file:
             metadata = json.load(file)
 
     except json.JSONDecodeError as error:
         raise ValueError(
-            f"{implement.metadata_file} contains invalid JSON. "
+            f"{metadata_file} contains invalid JSON. "
             "Correct the file before continuing."
         ) from error
 
     except OSError  as error:
         raise ValueError(
-            f"Couldn't read {implement.metadata_file}: {error}"
+            f"Couldn't read {metadata_file}: {error}"
         ) from error
     
     if not isinstance(metadata, dict):
