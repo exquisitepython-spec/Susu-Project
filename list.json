@@ -52,10 +52,10 @@
     "emma": {
         "id": "9165952884",
         "name": "emma",
-        "amount": "0.00",
+        "amount": "50.00",
         "weekly_contributions": {
             "1": "50.00",
-            "2": "0.00"
+            "2": "50.00"
         },
         "payouts_received": "300.00"
     },
@@ -77,21 +77,12 @@
         },
         "payouts_received": "0.00"
     },
-    "a n a n e": {
-        "id": "7810474299",
-        "name": "A n a n e",
-        "amount": "50.00",
+    "efe": {
+        "id": "1532944256",
+        "name": "efe",
+        "amount": "43.00",
         "weekly_contributions": {
-            "2": "50.00"
-        },
-        "payouts_received": "0.00"
-    },
-    "a l i c e": {
-        "id": "0103054076",
-        "name": "A l i c e",
-        "amount": "10.00",
-        "weekly_contributions": {
-            "2": "10.00"
+            "2": "43.00"
         },
         "payouts_received": "0.00"
     }
