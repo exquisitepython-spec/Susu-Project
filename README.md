@@ -104,7 +104,7 @@ Open a terminal and navigate to the project directory.
 
 Run:
 
-    python3 implement.py
+    python3 main.py
 
 ## 5. Application Menu
 
