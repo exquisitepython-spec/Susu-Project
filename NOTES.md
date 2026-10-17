@@ -1,4 +1,33 @@
+## Assumptions
 
+1. Every member is expected to contribute GHS 50.00 per week.
+
+2. Members can make partial payments, but their total weekly
+   contribution must not exceed GHS 50.00.
+
+3. A weekly payout cannot occur until every member has paid
+   the full required contribution.
+
+4. Payouts rotate through members in their joining order.
+   The rotation advances only after a successful payout.
+
+5. Each member must have a unique identity, and duplicate
+   members must not be accepted.
+
+6. Invalid payments, including zero, negative, and excessive
+   payments, must be rejected.
+
+7. Successful payouts must be recorded in the payout history.
+
+8. The current week's contribution amounts are reset after
+   a successful payout, while historical records are preserved.
+
+9. JSON files are used for persistent storage between
+   program executions.
+
+10. Decimal is used for monetary calculations to maintain
+    financial accuracy.
+    
 ## Contribution Rules
 
 1. Each member contributes GHS 50.00 per week.
